@@ -1,0 +1,37 @@
+--Notfication-Sound  
+local notification = Instance.new("Sound")
+notification.Parent = game:GetService("SoundService")
+notification.SoundId = "rbxassetid://9086208751"
+notification.Volume = 10
+
+game.StarterGui:SetCore("SendNotification", {
+      Icon = "http://www.roblox.com/asset/?id=17539542274";
+      Title = "MIKIMARU HUB", 
+      Text = "Loade Script";
+})
+wait(2)
+game.StarterGui:SetCore("SendNotification", {
+      Icon = "http://www.roblox.com/asset/?id=17539542274";
+      Title = "MIKIMARU HUB", 
+      Text = "✓";
+notification:Play()
+})
+loadstring(game:HttpGet('https://raw.githubusercontent.com/MIKIMARUXHUB/scriptall/main/ScriptFree'))()
+--Notfication-Sound  
+local notification = Instance.new("Sound")
+notification.Parent = game:GetService("SoundService")
+notification.SoundId = "rbxassetid://9086208751"
+notification.Volume = 10
+
+game.StarterGui:SetCore("SendNotification", {
+      Icon = "http://www.roblox.com/asset/?id=17539542274";
+      Title = "MIKIMARU HUB", 
+      Text = "V.2.9";
+})
+wait(2)
+game.StarterGui:SetCore("SendNotification", {
+      Icon = "http://www.roblox.com/asset/?id=17539542274";
+      Title = "MIKIMARU HUB", 
+      Text = "Beta Script";
+notification:Play()
+})
